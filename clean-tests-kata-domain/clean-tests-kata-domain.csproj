@@ -41,8 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeadException.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bakerstreet\Address.cs" />
+    <Compile Include="bakerstreet\Invoice.cs" />
+    <Compile Include="bakerstreet\InvoiceLine.cs" />
+    <Compile Include="bakerstreet\InvoiceLines.cs" />
+    <Compile Include="bakerstreet\PostCode.cs" />
+    <Compile Include="bakerstreet\PoundsShillingsPence.cs" />
+    <Compile Include="bakerstreet\Recipient.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

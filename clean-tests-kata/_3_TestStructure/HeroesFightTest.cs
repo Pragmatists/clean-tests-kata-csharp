@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace clean_tests_kata
+namespace clean_tests_kata._3_TestStructure
 {
-    public class GivenWhenThenTest
+    public class HeroesFightTest
     {
         [Test]
         public void TestFight1()
